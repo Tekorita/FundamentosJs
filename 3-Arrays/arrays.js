@@ -132,6 +132,8 @@ const reducer = (acum, persona) => {
 //podemos optimizar la funcion reducer como siempre de la siguiente manera:
 //const reducer (acum, {cantidadDeLibros}) => acum + cantidadDeLibros
 
+//los parametros que recibe reduce son el contador por ejemplo i++, i el valor de inicio q es 0
+//En este caso le pasaremos por parametro un funcion llamada reducer
 var totalDeLibros = personas.reduce(reducer, 0)
 
 console.log(`En total todos tienen ${totalDeLibros} libros`)
