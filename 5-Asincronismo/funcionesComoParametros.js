@@ -57,4 +57,3 @@ var tekora = new Desarrollador('Tekorita', 'Drojansi',1.95)
 sheyla.saludar(responderSaludo)
 david.saludar(responderSaludo)
 tekora.saludar(responderSaludo)
-
