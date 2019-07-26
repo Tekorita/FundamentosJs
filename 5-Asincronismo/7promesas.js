@@ -34,7 +34,7 @@ new Promise(function(resolve, rejected))
 */
 function obtenerPersonaje(id)
 {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve, rejected) => {
         const URL = `${API_URL}${PEOPLE_URL.replace(':id', id)}`
         $
         .get(URL, OPTS, function(data){
